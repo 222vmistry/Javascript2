@@ -1,22 +1,13 @@
-let ninjas = ['shaun', 'ryu', 'chun-li'];
+// type conversion
+let score = '100';
 
-// ninjas[1] = 'ken';
-// console.log(ninjas[1]);
+//score = Number(score);
+// console.log(score + 1);
+// console.log(typeof score);
 
-// let ages = [20, 25, 30, 35];
-// console.log(ages[2]);
+//let result = Number('hello');
+//let result = String(50);
+//let result = Boolean(0);
+let result = Boolean('0');
 
-// let random = ['shaun', 'crystal', 30, 20];
-// console.log(random);
-
-//console.log(ninjas.length);
-
-// array methods
-
-//let result = ninjas.join('-');
-//let result = ninjas.indexOf('chun-li');
-//let result = ninjas.concat(['ken', 'crystal']);
-let result = ninjas.push('ken');
-let result = ninjas.pop();
-
-console.log(ninjas);
+console.log(result, typeof result);
